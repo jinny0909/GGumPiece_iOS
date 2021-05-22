@@ -26,8 +26,7 @@ class choiceViewController: UIViewController {
     
     @IBAction func joinClicked(_ sender: Any) {
         guard let signupVC = self.storyboard?.instantiateViewController(identifier: "signupViewController")as? signupViewController else{return}
-        signupVC.modalPresentationStyle = .fullScreen
-        self.present(signupVC, animated: true)
+        self.navigationController?.pushViewController(signupVC, animated: true)
         
     }
     
@@ -35,8 +34,8 @@ class choiceViewController: UIViewController {
     
     @IBAction func loginClicked(_ sender: Any) {
         guard let loginVC = self.storyboard?.instantiateViewController(identifier: "loginViewController")as? loginViewController else{return}
-        loginVC.modalPresentationStyle = .fullScreen
-        self.present(loginVC, animated: true)
+        self.navigationController?.pushViewController(loginVC
+                                                      , animated: true)
         
     }
     

@@ -15,6 +15,7 @@ class startViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.isNavigationBarHidden = true
         dreamLabel.font = UIFont(name:"NotoSerifKR-Bold",size:26)
 
         // Do any additional setup after loading the view.
@@ -25,8 +26,9 @@ class startViewController: UIViewController {
                 DispatchQueue.main.asyncAfter(deadline : time) {
         // 여기에  2초뒤에 재생될 코드 작성
                     guard let choiceVC = self.storyboard?.instantiateViewController(identifier: "choiceViewController") as? choiceViewController else{return}
-                    choiceVC.modalPresentationStyle = .fullScreen
-                    self.present(choiceVC, animated: true)
+//                    choiceVC.modalPresentationStyle = .fullScreen
+//                    self.present(choiceVC, animated: true)
+                    self.navigationController?.pushViewController(choiceVC, animated: true)
                     
                     
                     

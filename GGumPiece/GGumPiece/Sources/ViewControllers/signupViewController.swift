@@ -18,6 +18,11 @@ class signupViewController: UIViewController {
     }
     
     @IBAction func joinClicked(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(identifier: "HomeViewController") as? HomeViewController else {
+            return
+        }
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     /*
