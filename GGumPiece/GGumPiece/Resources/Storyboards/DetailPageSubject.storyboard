@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rbT-R0-ywd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QIC-DV-Ch9">
+                                <rect key="frame" x="130" y="90" width="154" height="2"/>
+                                <color key="backgroundColor" red="0.88627451660000001" green="0.80000001190000003" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Qeq-0d-Kad"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDQ-LA-eIt">
+                                <rect key="frame" x="100" y="49" width="214" height="36"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="26"/>
+                                <color key="textColor" red="0.34117650989999998" green="0.34117650989999998" blue="0.34117650989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IYg-Ty-yuQ"/>
+                        <color key="backgroundColor" red="0.98039215800000001" green="0.96078431610000004" blue="0.99607843159999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eDQ-LA-eIt" secondAttribute="trailing" constant="100" id="6dV-Cg-ZX8"/>
+                            <constraint firstItem="QIC-DV-Ch9" firstAttribute="top" secondItem="eDQ-LA-eIt" secondAttribute="bottom" constant="5" id="Ntb-eD-gfH"/>
+                            <constraint firstItem="QIC-DV-Ch9" firstAttribute="top" secondItem="rbT-R0-ywd" secondAttribute="top" constant="90" id="S6j-tP-b1S"/>
+                            <constraint firstItem="eDQ-LA-eIt" firstAttribute="leading" secondItem="rbT-R0-ywd" secondAttribute="leading" constant="100" id="YsT-Mu-hUT"/>
+                            <constraint firstItem="QIC-DV-Ch9" firstAttribute="leading" secondItem="rbT-R0-ywd" secondAttribute="leading" constant="130" id="ecT-Oi-XNE"/>
+                            <constraint firstAttribute="trailing" secondItem="QIC-DV-Ch9" secondAttribute="trailing" constant="130" id="ta7-jk-P12"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="69.642857142857139"/>
+        </scene>
+    </scenes>
+</document>

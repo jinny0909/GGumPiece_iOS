@@ -91,6 +91,9 @@
 		3658E25026597823002B9CCF /* NotoSans-ExtraCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20826597823002B9CCF /* NotoSans-ExtraCondensed.ttf */; };
 		3658E25126597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */; };
 		3658E25226597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */; };
+		3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687005B265984CB003E3A35 /* tableViewDummy.swift */; };
+		36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B32659947C000B5392 /* DetailPageSubject.storyboard */; };
+		36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -180,6 +183,9 @@
 		3658E20826597823002B9CCF /* NotoSans-ExtraCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensed.ttf"; sourceTree = "<group>"; };
 		3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-CondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3687005B265984CB003E3A35 /* tableViewDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDummy.swift; sourceTree = "<group>"; };
+		36C190B32659947C000B5392 /* DetailPageSubject.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPageSubject.storyboard; sourceTree = "<group>"; };
+		36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +255,7 @@
 			children = (
 				244922FC26596DB400070746 /* Main.storyboard */,
 				3658E1BE265975A9002B9CCF /* detailPage.storyboard */,
+				36C190B32659947C000B5392 /* DetailPageSubject.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -273,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				2449231426596E4E00070746 /* Cells.swift */,
+				36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -290,6 +298,7 @@
 			children = (
 				244922FA26596DB400070746 /* ViewController.swift */,
 				3658E1C0265975BA002B9CCF /* detailPageViewController.swift */,
+				3687005B265984CB003E3A35 /* tableViewDummy.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -465,6 +474,7 @@
 				3658E24826597823002B9CCF /* NotoSans-ExtraLightItalic.ttf in Resources */,
 				3658E24326597823002B9CCF /* NotoSans-ExtraCondensedBoldItalic.ttf in Resources */,
 				3658E20E26597823002B9CCF /* NotoSans-SemiCondensedExtraBoldItalic.ttf in Resources */,
+				36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */,
 				3658E22F26597823002B9CCF /* NotoSans-Medium.ttf in Resources */,
 				3658E20D26597823002B9CCF /* NotoSans-ExtraCondensedBold.ttf in Resources */,
 				3658E22826597823002B9CCF /* NotoSans-ExtraCondensedMedium.ttf in Resources */,
@@ -516,7 +526,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */,
 				3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */,
+				3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */,
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
 				2449231726596E5500070746 /* APIServices.swift in Sources */,
@@ -600,6 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -655,6 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -671,7 +685,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GGumPiece/Info.plist;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -689,7 +703,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GGumPiece/Info.plist;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
