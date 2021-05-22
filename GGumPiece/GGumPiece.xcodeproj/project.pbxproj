@@ -17,6 +17,8 @@
 		2449231526596E4E00070746 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449231426596E4E00070746 /* Cells.swift */; };
 		2449231726596E5500070746 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449231626596E5500070746 /* APIServices.swift */; };
 		2449231926596E5A00070746 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449231826596E5A00070746 /* APIModels.swift */; };
+		2449231F265981BF00070746 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2449231E265981BF00070746 /* Colors.xcassets */; };
+		24492321265985DF00070746 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24492320265985DF00070746 /* UIColor + Extension.swift */; };
 		3658E1BF265975A9002B9CCF /* detailPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1BE265975A9002B9CCF /* detailPage.storyboard */; };
 		3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658E1C0265975BA002B9CCF /* detailPageViewController.swift */; };
 		3658E20B26597823002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */; };
@@ -106,6 +108,8 @@
 		2449231426596E4E00070746 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		2449231626596E5500070746 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
 		2449231826596E5A00070746 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		2449231E265981BF00070746 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		24492320265985DF00070746 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		3658E1BE265975A9002B9CCF /* detailPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = detailPage.storyboard; sourceTree = "<group>"; };
 		3658E1C0265975BA002B9CCF /* detailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPageViewController.swift; sourceTree = "<group>"; };
 		3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedExtraBold.ttf"; sourceTree = "<group>"; };
@@ -226,6 +230,7 @@
 				2449230C26596DE700070746 /* Storyboards */,
 				244922FF26596DB400070746 /* Assets.xcassets */,
 				2449230426596DB400070746 /* Info.plist */,
+				2449231E265981BF00070746 /* Colors.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				2449231226596E4900070746 /* Extensions.swift */,
+				24492320265985DF00070746 /* UIColor + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -443,6 +449,7 @@
 				3658E1BF265975A9002B9CCF /* detailPage.storyboard in Resources */,
 				3658E24F26597823002B9CCF /* NotoSans-ThinItalic.ttf in Resources */,
 				3658E21C26597823002B9CCF /* NotoSans-ExtraCondensedBlack.ttf in Resources */,
+				2449231F265981BF00070746 /* Colors.xcassets in Resources */,
 				3658E24426597823002B9CCF /* NotoSans-Black.ttf in Resources */,
 				3658E21A26597823002B9CCF /* NotoSans-CondensedSemiBold.ttf in Resources */,
 				3658E24026597823002B9CCF /* NotoSans-SemiCondensedThin.ttf in Resources */,
@@ -516,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24492321265985DF00070746 /* UIColor + Extension.swift in Sources */,
 				3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */,
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
