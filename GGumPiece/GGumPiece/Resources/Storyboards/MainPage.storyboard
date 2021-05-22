@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSans-Black.ttf">
+            <string>NotoSans-Black</string>
+        </array>
+        <array key="NotoSans-Bold.ttf">
+            <string>NotoSans-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Main Page View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MainPageViewController" id="Y6W-OH-hqX" customClass="MainPageViewController" customModule="GGumPiece" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient1" translatesAutoresizingMaskIntoConstraints="NO" id="C51-oU-jWS">
+                                <rect key="frame" x="24" y="131" width="327" height="366"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="꿈 하나가 완성됐어요!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtX-Xe-X5p">
+                                <rect key="frame" x="118.5" y="112" width="138" height="19"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainMoon1" translatesAutoresizingMaskIntoConstraints="NO" id="QC0-x2-669">
+                                <rect key="frame" x="123.5" y="198" width="128" height="201"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0d-7p-Egs">
+                                <rect key="frame" x="63" y="497" width="249" height="43"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NotoSans-Black" family="Noto Sans" pointSize="16"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="12"/>
+                                <state key="normal" title="내가 모은 꿈 보러가기">
+                                    <color key="titleColor" name="DarkGray1"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchCheckDreamButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="uWM-pY-LBP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="LightPurple"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="V0d-7p-Egs" secondAttribute="trailing" constant="63" id="2fx-Ap-828"/>
+                            <constraint firstItem="V0d-7p-Egs" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="63" id="5Gj-Yw-fy1"/>
+                            <constraint firstItem="WtX-Xe-X5p" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="112" id="5iP-ya-yuK"/>
+                            <constraint firstItem="WtX-Xe-X5p" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="FZc-h0-iQ0"/>
+                            <constraint firstItem="QC0-x2-669" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="GJf-mw-Azr"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="C51-oU-jWS" secondAttribute="trailing" constant="24" id="JaP-qN-XX8"/>
+                            <constraint firstItem="QC0-x2-669" firstAttribute="top" secondItem="WtX-Xe-X5p" secondAttribute="bottom" constant="67" id="Vpm-AK-d16"/>
+                            <constraint firstItem="C51-oU-jWS" firstAttribute="top" secondItem="WtX-Xe-X5p" secondAttribute="bottom" id="aYR-8R-dNP"/>
+                            <constraint firstItem="V0d-7p-Egs" firstAttribute="top" secondItem="C51-oU-jWS" secondAttribute="bottom" id="cVp-Rf-vBn"/>
+                            <constraint firstItem="C51-oU-jWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="yAF-sk-Bzf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="checkDreamButton" destination="V0d-7p-Egs" id="zKM-A9-MdG"/>
+                        <outlet property="dreamLabel" destination="WtX-Xe-X5p" id="Y0F-SF-C6I"/>
+                        <outlet property="moonImageView" destination="QC0-x2-669" id="BDb-8i-2C6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="119"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="gradient1" width="366" height="366"/>
+        <image name="mainMoon1" width="128" height="201"/>
+        <namedColor name="DarkGray1">
+            <color red="0.22352941176470589" green="0.22352941176470589" blue="0.22352941176470589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightPurple">
+            <color red="0.96862745098039216" green="0.93725490196078431" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
