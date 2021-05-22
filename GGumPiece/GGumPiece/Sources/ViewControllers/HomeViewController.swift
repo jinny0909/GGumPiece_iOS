@@ -16,14 +16,13 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        transitionToMain()
 
     }
     
     @IBAction func touchListButton(_ sender: Any) {
         if !self.listButton.isSelected {
-            self.mainButton.setImage(UIImage(named: "iconMain"), for: .normal)
-            self.listButton.setImage(UIImage(named: "iconListSelected"), for: .normal)
+           
             removeChildren()
             transitionToList()
         }
@@ -31,18 +30,29 @@ class HomeViewController: UIViewController {
     
     @IBAction func touchMainButton(_ sender: Any) {
         if !self.mainButton.isSelected {
-            self.mainButton.setImage(UIImage(named: "iconMainSelected"), for: .normal)
-            self.listButton.setImage(UIImage(named: "iconList"), for: .normal)
+            
             removeChildren()
             transitionToMain()
         }
     }
     
     private func transitionToList() {
+        self.mainButton.setImage(UIImage(named: "iconMain"), for: .normal)
+        self.listButton.setImage(UIImage(named: "iconListSelected"), for: .normal)
         // 작성해줘
+        print(1)
     }
     
     private func transitionToMain() {
+        self.mainButton.setImage(UIImage(named: "iconMainSelected"), for: .normal)
+        self.listButton.setImage(UIImage(named: "iconList"), for: .normal)
+        let storyboard = UIStoryboard(name: "MainPage", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(identifier: "MainPageViewController") as? MainPageViewController else {
+            return
+        }
+        addChild(vc)
+        vc.view.frame = self.containerView.bounds
+        self.containerView.addSubview(vc.view)
         
     }
     

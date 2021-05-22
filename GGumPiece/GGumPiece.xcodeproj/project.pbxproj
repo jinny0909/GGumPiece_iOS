@@ -21,6 +21,8 @@
 		24492321265985DF00070746 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24492320265985DF00070746 /* UIColor + Extension.swift */; };
 		249AFA5226598E0300027D08 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AFA5126598E0300027D08 /* Home.storyboard */; };
 		249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AFA5326598F6800027D08 /* HomeViewController.swift */; };
+		249AFA56265993AC00027D08 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AFA55265993AC00027D08 /* MainPage.storyboard */; };
+		249AFA58265993B900027D08 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AFA57265993B900027D08 /* MainPageViewController.swift */; };
 		3658E1BF265975A9002B9CCF /* detailPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1BE265975A9002B9CCF /* detailPage.storyboard */; };
 		3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658E1C0265975BA002B9CCF /* detailPageViewController.swift */; };
 		3658E20B26597823002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */; };
@@ -114,6 +116,8 @@
 		24492320265985DF00070746 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		249AFA5126598E0300027D08 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		249AFA5326598F6800027D08 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		249AFA55265993AC00027D08 /* MainPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		249AFA57265993B900027D08 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		3658E1BE265975A9002B9CCF /* detailPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = detailPage.storyboard; sourceTree = "<group>"; };
 		3658E1C0265975BA002B9CCF /* detailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPageViewController.swift; sourceTree = "<group>"; };
 		3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedExtraBold.ttf"; sourceTree = "<group>"; };
@@ -259,6 +263,7 @@
 				244922FC26596DB400070746 /* Main.storyboard */,
 				3658E1BE265975A9002B9CCF /* detailPage.storyboard */,
 				249AFA5126598E0300027D08 /* Home.storyboard */,
+				249AFA55265993AC00027D08 /* MainPage.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				244922FA26596DB400070746 /* ViewController.swift */,
 				3658E1C0265975BA002B9CCF /* detailPageViewController.swift */,
 				249AFA5326598F6800027D08 /* HomeViewController.swift */,
+				249AFA57265993B900027D08 /* MainPageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -476,6 +482,7 @@
 				3658E22126597823002B9CCF /* NotoSans-SemiCondensedMedium.ttf in Resources */,
 				3658E24E26597823002B9CCF /* NotoSans-ExtraCondensedThinItalic.ttf in Resources */,
 				3658E22326597823002B9CCF /* NotoSans-CondensedBoldItalic.ttf in Resources */,
+				249AFA56265993AC00027D08 /* MainPage.storyboard in Resources */,
 				3658E24826597823002B9CCF /* NotoSans-ExtraLightItalic.ttf in Resources */,
 				3658E24326597823002B9CCF /* NotoSans-ExtraCondensedBoldItalic.ttf in Resources */,
 				3658E20E26597823002B9CCF /* NotoSans-SemiCondensedExtraBoldItalic.ttf in Resources */,
@@ -538,6 +545,7 @@
 				249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */,
 				2449231926596E5A00070746 /* APIModels.swift in Sources */,
 				244922F926596DB400070746 /* SceneDelegate.swift in Sources */,
+				249AFA58265993B900027D08 /* MainPageViewController.swift in Sources */,
 				2449231326596E4900070746 /* Extensions.swift in Sources */,
 				2449231526596E4E00070746 /* Cells.swift in Sources */,
 			);
