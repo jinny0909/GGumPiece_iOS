@@ -19,6 +19,10 @@
 		2449231926596E5A00070746 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449231826596E5A00070746 /* APIModels.swift */; };
 		2449231F265981BF00070746 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2449231E265981BF00070746 /* Colors.xcassets */; };
 		24492321265985DF00070746 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24492320265985DF00070746 /* UIColor + Extension.swift */; };
+		249AFA5226598E0300027D08 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AFA5126598E0300027D08 /* Home.storyboard */; };
+		249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AFA5326598F6800027D08 /* HomeViewController.swift */; };
+		249AFA56265993AC00027D08 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AFA55265993AC00027D08 /* MainPage.storyboard */; };
+		249AFA58265993B900027D08 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AFA57265993B900027D08 /* MainPageViewController.swift */; };
 		3658E1BF265975A9002B9CCF /* detailPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1BE265975A9002B9CCF /* detailPage.storyboard */; };
 		3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658E1C0265975BA002B9CCF /* detailPageViewController.swift */; };
 		3658E20B26597823002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */; };
@@ -98,6 +102,17 @@
 		E812A28F26599CF4006C1A19 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A28E26599CF4006C1A19 /* startViewController.swift */; };
 		E812A2912659A063006C1A19 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A2902659A063006C1A19 /* signupViewController.swift */; };
 		E812A2932659A08B006C1A19 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A2922659A08B006C1A19 /* choiceViewController.swift */; };
+		3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687005B265984CB003E3A35 /* tableViewDummy.swift */; };
+		368F60DA2659973900CA6D24 /* DetailPageSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */; };
+		36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B32659947C000B5392 /* DetailPageSubject.storyboard */; };
+		36C190BC2659959E000B5392 /* NotoSerifKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B52659959D000B5392 /* NotoSerifKR-Regular.otf */; };
+		36C190BD2659959E000B5392 /* NotoSerifKR-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B62659959D000B5392 /* NotoSerifKR-SemiBold.otf */; };
+		36C190BE2659959E000B5392 /* NotoSerifKR-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B72659959D000B5392 /* NotoSerifKR-ExtraLight.otf */; };
+		36C190BF2659959E000B5392 /* NotoSerifKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B82659959D000B5392 /* NotoSerifKR-Bold.otf */; };
+		36C190C02659959E000B5392 /* NotoSerifKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B92659959E000B5392 /* NotoSerifKR-Black.otf */; };
+		36C190C12659959E000B5392 /* NotoSerifKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190BA2659959E000B5392 /* NotoSerifKR-Medium.otf */; };
+		36C190C22659959E000B5392 /* NotoSerifKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190BB2659959E000B5392 /* NotoSerifKR-Light.otf */; };
+		36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +130,10 @@
 		2449231826596E5A00070746 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
 		2449231E265981BF00070746 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		24492320265985DF00070746 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		249AFA5126598E0300027D08 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		249AFA5326598F6800027D08 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		249AFA55265993AC00027D08 /* MainPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		249AFA57265993B900027D08 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		3658E1BE265975A9002B9CCF /* detailPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = detailPage.storyboard; sourceTree = "<group>"; };
 		3658E1C0265975BA002B9CCF /* detailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPageViewController.swift; sourceTree = "<group>"; };
 		3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedExtraBold.ttf"; sourceTree = "<group>"; };
@@ -194,6 +213,17 @@
 		E812A28E26599CF4006C1A19 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		E812A2902659A063006C1A19 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
 		E812A2922659A08B006C1A19 /* choiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceViewController.swift; sourceTree = "<group>"; };
+		3687005B265984CB003E3A35 /* tableViewDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDummy.swift; sourceTree = "<group>"; };
+		368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageSubjectViewController.swift; sourceTree = "<group>"; };
+		36C190B32659947C000B5392 /* DetailPageSubject.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPageSubject.storyboard; sourceTree = "<group>"; };
+		36C190B52659959D000B5392 /* NotoSerifKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Regular.otf"; sourceTree = "<group>"; };
+		36C190B62659959D000B5392 /* NotoSerifKR-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-SemiBold.otf"; sourceTree = "<group>"; };
+		36C190B72659959D000B5392 /* NotoSerifKR-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-ExtraLight.otf"; sourceTree = "<group>"; };
+		36C190B82659959D000B5392 /* NotoSerifKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Bold.otf"; sourceTree = "<group>"; };
+		36C190B92659959E000B5392 /* NotoSerifKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Black.otf"; sourceTree = "<group>"; };
+		36C190BA2659959E000B5392 /* NotoSerifKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Medium.otf"; sourceTree = "<group>"; };
+		36C190BB2659959E000B5392 /* NotoSerifKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Light.otf"; sourceTree = "<group>"; };
+		36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +295,9 @@
 				244922FC26596DB400070746 /* Main.storyboard */,
 				3658E1BE265975A9002B9CCF /* detailPage.storyboard */,
 				E812A288265990FC006C1A19 /* loginPage.storyboard */,
+				36C190B32659947C000B5392 /* DetailPageSubject.storyboard */,
+				249AFA5126598E0300027D08 /* Home.storyboard */,
+				249AFA55265993AC00027D08 /* MainPage.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -289,6 +322,7 @@
 			isa = PBXGroup;
 			children = (
 				2449231426596E4E00070746 /* Cells.swift */,
+				36DDC0F426597ADA00C58A1D /* DetailTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -311,6 +345,10 @@
 				E812A2902659A063006C1A19 /* signupViewController.swift */,
 				E812A2922659A08B006C1A19 /* choiceViewController.swift */,
 				E812A28E26599CF4006C1A19 /* startViewController.swift */,
+				3687005B265984CB003E3A35 /* tableViewDummy.swift */,
+				368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */,
+				249AFA5326598F6800027D08 /* HomeViewController.swift */,
+				249AFA57265993B900027D08 /* MainPageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -335,6 +373,13 @@
 				3658E1CA26597820002B9CCF /* NotoSans-CondensedLight.ttf */,
 				3658E20426597822002B9CCF /* NotoSans-CondensedLightItalic.ttf */,
 				3658E1CD26597820002B9CCF /* NotoSans-CondensedMedium.ttf */,
+				36C190B92659959E000B5392 /* NotoSerifKR-Black.otf */,
+				36C190B82659959D000B5392 /* NotoSerifKR-Bold.otf */,
+				36C190B72659959D000B5392 /* NotoSerifKR-ExtraLight.otf */,
+				36C190BB2659959E000B5392 /* NotoSerifKR-Light.otf */,
+				36C190BA2659959E000B5392 /* NotoSerifKR-Medium.otf */,
+				36C190B52659959D000B5392 /* NotoSerifKR-Regular.otf */,
+				36C190B62659959D000B5392 /* NotoSerifKR-SemiBold.otf */,
 				3658E1E226597821002B9CCF /* NotoSans-CondensedMediumItalic.ttf */,
 				3658E1D226597821002B9CCF /* NotoSans-CondensedSemiBold.ttf */,
 				3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */,
@@ -466,11 +511,14 @@
 				3658E21C26597823002B9CCF /* NotoSans-ExtraCondensedBlack.ttf in Resources */,
 				2449231F265981BF00070746 /* Colors.xcassets in Resources */,
 				3658E24426597823002B9CCF /* NotoSans-Black.ttf in Resources */,
+				249AFA5226598E0300027D08 /* Home.storyboard in Resources */,
 				3658E21A26597823002B9CCF /* NotoSans-CondensedSemiBold.ttf in Resources */,
 				3658E24026597823002B9CCF /* NotoSans-SemiCondensedThin.ttf in Resources */,
 				3658E22026597823002B9CCF /* NotoSans-ExtraCondensedExtraBoldItalic.ttf in Resources */,
 				3658E24C26597823002B9CCF /* NotoSans-CondensedLightItalic.ttf in Resources */,
 				3658E23526597823002B9CCF /* NotoSans-SemiBold.ttf in Resources */,
+				36C190BC2659959E000B5392 /* NotoSerifKR-Regular.otf in Resources */,
+				36C190C02659959E000B5392 /* NotoSerifKR-Black.otf in Resources */,
 				3658E25226597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf in Resources */,
 				3658E22226597823002B9CCF /* NotoSans-CondensedBlack.ttf in Resources */,
 				3658E21326597823002B9CCF /* NotoSans-CondensedExtraLightItalic.ttf in Resources */,
@@ -480,14 +528,17 @@
 				3658E21126597823002B9CCF /* NotoSans-CondensedThinItalic.ttf in Resources */,
 				3658E20B26597823002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf in Resources */,
 				3658E23726597823002B9CCF /* NotoSans-ExtraCondensedSemiBold.ttf in Resources */,
+				36C190C12659959E000B5392 /* NotoSerifKR-Medium.otf in Resources */,
 				3658E21F26597823002B9CCF /* NotoSans-CondensedExtraLight.ttf in Resources */,
 				2449230326596DB400070746 /* LaunchScreen.storyboard in Resources */,
 				3658E22126597823002B9CCF /* NotoSans-SemiCondensedMedium.ttf in Resources */,
 				3658E24E26597823002B9CCF /* NotoSans-ExtraCondensedThinItalic.ttf in Resources */,
 				3658E22326597823002B9CCF /* NotoSans-CondensedBoldItalic.ttf in Resources */,
+				249AFA56265993AC00027D08 /* MainPage.storyboard in Resources */,
 				3658E24826597823002B9CCF /* NotoSans-ExtraLightItalic.ttf in Resources */,
 				3658E24326597823002B9CCF /* NotoSans-ExtraCondensedBoldItalic.ttf in Resources */,
 				3658E20E26597823002B9CCF /* NotoSans-SemiCondensedExtraBoldItalic.ttf in Resources */,
+				36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */,
 				3658E22F26597823002B9CCF /* NotoSans-Medium.ttf in Resources */,
 				3658E20D26597823002B9CCF /* NotoSans-ExtraCondensedBold.ttf in Resources */,
 				3658E22826597823002B9CCF /* NotoSans-ExtraCondensedMedium.ttf in Resources */,
@@ -500,6 +551,7 @@
 				3658E21426597823002B9CCF /* NotoSans-SemiCondensedSemiBold.ttf in Resources */,
 				3658E22E26597823002B9CCF /* NotoSans-SemiBoldItalic.ttf in Resources */,
 				3658E23826597823002B9CCF /* NotoSans-ExtraLight.ttf in Resources */,
+				36C190C22659959E000B5392 /* NotoSerifKR-Light.otf in Resources */,
 				3658E23A26597823002B9CCF /* NotoSans-SemiCondensedExtraBold.ttf in Resources */,
 				3658E20C26597823002B9CCF /* NotoSans-CondensedBlackItalic.ttf in Resources */,
 				3658E22526597823002B9CCF /* NotoSans-LightItalic.ttf in Resources */,
@@ -510,15 +562,18 @@
 				3658E22626597823002B9CCF /* NotoSans-ExtraBoldItalic.ttf in Resources */,
 				3658E21E26597823002B9CCF /* NotoSans-ExtraCondensedThin.ttf in Resources */,
 				2449230026596DB400070746 /* Assets.xcassets in Resources */,
+				36C190BD2659959E000B5392 /* NotoSerifKR-SemiBold.otf in Resources */,
 				3658E23426597823002B9CCF /* NotoSans-ExtraCondensedExtraLight.ttf in Resources */,
 				3658E25026597823002B9CCF /* NotoSans-ExtraCondensed.ttf in Resources */,
 				3658E21526597823002B9CCF /* NotoSans-CondensedMedium.ttf in Resources */,
 				3658E24226597823002B9CCF /* NotoSans-SemiCondensedExtraLight.ttf in Resources */,
+				36C190BE2659959E000B5392 /* NotoSerifKR-ExtraLight.otf in Resources */,
 				3658E24926597823002B9CCF /* NotoSans-ExtraCondensedLightItalic.ttf in Resources */,
 				3658E21926597823002B9CCF /* NotoSans-BoldItalic.ttf in Resources */,
 				3658E21D26597823002B9CCF /* NotoSans-ExtraBold.ttf in Resources */,
 				3658E24526597823002B9CCF /* NotoSans-Condensed.ttf in Resources */,
 				3658E21726597823002B9CCF /* NotoSans-BlackItalic.ttf in Resources */,
+				36C190BF2659959E000B5392 /* NotoSerifKR-Bold.otf in Resources */,
 				3658E22B26597823002B9CCF /* NotoSans-SemiCondensedLight.ttf in Resources */,
 				3658E22A26597823002B9CCF /* NotoSans-CondensedMediumItalic.ttf in Resources */,
 				3658E23626597823002B9CCF /* NotoSans-SemiCondensedBoldItalic.ttf in Resources */,
@@ -539,16 +594,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */,
 				24492321265985DF00070746 /* UIColor + Extension.swift in Sources */,
 				E812A2932659A08B006C1A19 /* choiceViewController.swift in Sources */,
 				3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */,
+				3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */,
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
 				E812A28D265991EA006C1A19 /* loginViewController.swift in Sources */,
 				2449231726596E5500070746 /* APIServices.swift in Sources */,
+				249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */,
 				2449231926596E5A00070746 /* APIModels.swift in Sources */,
 				E812A28F26599CF4006C1A19 /* startViewController.swift in Sources */,
 				244922F926596DB400070746 /* SceneDelegate.swift in Sources */,
+				249AFA58265993B900027D08 /* MainPageViewController.swift in Sources */,
+				368F60DA2659973900CA6D24 /* DetailPageSubjectViewController.swift in Sources */,
 				2449231326596E4900070746 /* Extensions.swift in Sources */,
 				E812A2912659A063006C1A19 /* signupViewController.swift in Sources */,
 				2449231526596E4E00070746 /* Cells.swift in Sources */,
@@ -628,6 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -683,6 +744,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
