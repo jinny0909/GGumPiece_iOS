@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -16,11 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZn-e1-paA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="762"/>
+                            </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Nh-5m-eDN">
-                                <rect key="frame" x="0.0" y="786" width="414" height="76"/>
+                                <rect key="frame" x="0.0" y="806" width="414" height="90"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="109" translatesAutoresizingMaskIntoConstraints="NO" id="3bI-4v-Xpd">
-                                        <rect key="frame" x="47" y="24" width="320" height="28"/>
+                                        <rect key="frame" x="47" y="22" width="320" height="28"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2b-TG-c7I">
                                                 <rect key="frame" x="0.0" y="0.0" width="34" height="28"/>
@@ -45,26 +48,25 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="3bI-4v-Xpd" firstAttribute="centerY" secondItem="2Nh-5m-eDN" secondAttribute="centerY" id="9rg-Ck-3Cz"/>
-                                    <constraint firstAttribute="height" constant="76" id="g0C-l7-mY2"/>
+                                    <constraint firstAttribute="height" constant="90" id="g0C-l7-mY2"/>
+                                    <constraint firstAttribute="bottom" secondItem="3bI-4v-Xpd" secondAttribute="bottom" constant="40" id="gbi-xj-B5G"/>
                                     <constraint firstAttribute="trailing" secondItem="3bI-4v-Xpd" secondAttribute="trailing" constant="47" id="ma9-Jd-0fR"/>
                                     <constraint firstItem="3bI-4v-Xpd" firstAttribute="leading" secondItem="2Nh-5m-eDN" secondAttribute="leading" constant="47" id="p5g-Dr-l9Y"/>
                                 </constraints>
                             </view>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZn-e1-paA">
-                                <rect key="frame" x="0.0" y="44" width="414" height="742"/>
-                            </containerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="XZn-e1-paA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="BPs-Z6-r8Q"/>
-                            <constraint firstItem="2Nh-5m-eDN" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="Exb-qc-1Kk"/>
                             <constraint firstItem="XZn-e1-paA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="LgQ-kC-Xdp"/>
+                            <constraint firstItem="2Nh-5m-eDN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ag2-hj-1oj"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="XZn-e1-paA" secondAttribute="trailing" id="ggU-fc-qec"/>
+                            <constraint firstItem="2Nh-5m-eDN" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hW0-mj-ndu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="2Nh-5m-eDN" secondAttribute="trailing" id="iTk-YP-aoI"/>
                             <constraint firstItem="2Nh-5m-eDN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="pOB-a9-hl8"/>
                             <constraint firstItem="2Nh-5m-eDN" firstAttribute="top" secondItem="XZn-e1-paA" secondAttribute="bottom" id="tgJ-QL-haC"/>
+                            <constraint firstAttribute="bottom" secondItem="2Nh-5m-eDN" secondAttribute="bottom" id="voL-70-6ND"/>
                         </constraints>
                     </view>
                     <connections>
