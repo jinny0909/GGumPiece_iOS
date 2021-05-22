@@ -97,6 +97,11 @@
 		3658E25026597823002B9CCF /* NotoSans-ExtraCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20826597823002B9CCF /* NotoSans-ExtraCondensed.ttf */; };
 		3658E25126597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */; };
 		3658E25226597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */; };
+		E812A289265990FC006C1A19 /* loginPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E812A288265990FC006C1A19 /* loginPage.storyboard */; };
+		E812A28D265991EA006C1A19 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A28C265991EA006C1A19 /* loginViewController.swift */; };
+		E812A28F26599CF4006C1A19 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A28E26599CF4006C1A19 /* startViewController.swift */; };
+		E812A2912659A063006C1A19 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A2902659A063006C1A19 /* signupViewController.swift */; };
+		E812A2932659A08B006C1A19 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E812A2922659A08B006C1A19 /* choiceViewController.swift */; };
 		3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687005B265984CB003E3A35 /* tableViewDummy.swift */; };
 		368F60DA2659973900CA6D24 /* DetailPageSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */; };
 		36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B32659947C000B5392 /* DetailPageSubject.storyboard */; };
@@ -203,6 +208,11 @@
 		3658E20826597823002B9CCF /* NotoSans-ExtraCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensed.ttf"; sourceTree = "<group>"; };
 		3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-CondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E812A288265990FC006C1A19 /* loginPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = loginPage.storyboard; sourceTree = "<group>"; };
+		E812A28C265991EA006C1A19 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		E812A28E26599CF4006C1A19 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		E812A2902659A063006C1A19 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		E812A2922659A08B006C1A19 /* choiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceViewController.swift; sourceTree = "<group>"; };
 		3687005B265984CB003E3A35 /* tableViewDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDummy.swift; sourceTree = "<group>"; };
 		368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageSubjectViewController.swift; sourceTree = "<group>"; };
 		36C190B32659947C000B5392 /* DetailPageSubject.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPageSubject.storyboard; sourceTree = "<group>"; };
@@ -284,6 +294,7 @@
 			children = (
 				244922FC26596DB400070746 /* Main.storyboard */,
 				3658E1BE265975A9002B9CCF /* detailPage.storyboard */,
+				E812A288265990FC006C1A19 /* loginPage.storyboard */,
 				36C190B32659947C000B5392 /* DetailPageSubject.storyboard */,
 				249AFA5126598E0300027D08 /* Home.storyboard */,
 				249AFA55265993AC00027D08 /* MainPage.storyboard */,
@@ -330,6 +341,10 @@
 			children = (
 				244922FA26596DB400070746 /* ViewController.swift */,
 				3658E1C0265975BA002B9CCF /* detailPageViewController.swift */,
+				E812A28C265991EA006C1A19 /* loginViewController.swift */,
+				E812A2902659A063006C1A19 /* signupViewController.swift */,
+				E812A2922659A08B006C1A19 /* choiceViewController.swift */,
+				E812A28E26599CF4006C1A19 /* startViewController.swift */,
 				3687005B265984CB003E3A35 /* tableViewDummy.swift */,
 				368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */,
 				249AFA5326598F6800027D08 /* HomeViewController.swift */,
@@ -507,6 +522,7 @@
 				3658E25226597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf in Resources */,
 				3658E22226597823002B9CCF /* NotoSans-CondensedBlack.ttf in Resources */,
 				3658E21326597823002B9CCF /* NotoSans-CondensedExtraLightItalic.ttf in Resources */,
+				E812A289265990FC006C1A19 /* loginPage.storyboard in Resources */,
 				3658E21B26597823002B9CCF /* NotoSans-SemiCondensedBlackItalic.ttf in Resources */,
 				3658E24726597823002B9CCF /* NotoSans-ExtraCondensedLight.ttf in Resources */,
 				3658E21126597823002B9CCF /* NotoSans-CondensedThinItalic.ttf in Resources */,
@@ -580,17 +596,21 @@
 			files = (
 				36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */,
 				24492321265985DF00070746 /* UIColor + Extension.swift in Sources */,
+				E812A2932659A08B006C1A19 /* choiceViewController.swift in Sources */,
 				3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */,
 				3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */,
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
+				E812A28D265991EA006C1A19 /* loginViewController.swift in Sources */,
 				2449231726596E5500070746 /* APIServices.swift in Sources */,
 				249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */,
 				2449231926596E5A00070746 /* APIModels.swift in Sources */,
+				E812A28F26599CF4006C1A19 /* startViewController.swift in Sources */,
 				244922F926596DB400070746 /* SceneDelegate.swift in Sources */,
 				249AFA58265993B900027D08 /* MainPageViewController.swift in Sources */,
 				368F60DA2659973900CA6D24 /* DetailPageSubjectViewController.swift in Sources */,
 				2449231326596E4900070746 /* Extensions.swift in Sources */,
+				E812A2912659A063006C1A19 /* signupViewController.swift in Sources */,
 				2449231526596E4E00070746 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
