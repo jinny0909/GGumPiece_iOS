@@ -13,6 +13,9 @@
         <array key="NotoSans-Regular.ttf">
             <string>NotoSans-Regular</string>
         </array>
+        <array key="NotoSerifKR-Bold.otf">
+            <string>NotoSerifKR-Bold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Detail Page View Controller-->
@@ -34,8 +37,8 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="꿈기록장" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fQ-wR-YhF">
-                                        <rect key="frame" x="100" y="49.333333333333343" width="214" height="35.666666666666657"/>
-                                        <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="26"/>
+                                        <rect key="frame" x="100" y="47.333333333333343" width="214" height="37.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="NotoSerifKR-Bold" family="Noto Serif KR" pointSize="26"/>
                                         <color key="textColor" red="0.34117650989999998" green="0.34117650989999998" blue="0.34117650989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
