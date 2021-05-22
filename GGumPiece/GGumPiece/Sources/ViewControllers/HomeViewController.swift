@@ -39,8 +39,13 @@ class HomeViewController: UIViewController {
     private func transitionToList() {
         self.mainButton.setImage(UIImage(named: "iconMain"), for: .normal)
         self.listButton.setImage(UIImage(named: "iconListSelected"), for: .normal)
-        // 작성해줘
-        print(1)
+        let storyboard = UIStoryboard(name: "detailPage", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(identifier: "detailPageViewController") as? detailPageViewController else {
+            return
+        }
+        addChild(vc)
+        vc.view.frame = self.containerView.bounds
+        self.containerView.addSubview(vc.view)
     }
     
     private func transitionToMain() {
