@@ -19,6 +19,8 @@
 		2449231926596E5A00070746 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449231826596E5A00070746 /* APIModels.swift */; };
 		2449231F265981BF00070746 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2449231E265981BF00070746 /* Colors.xcassets */; };
 		24492321265985DF00070746 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24492320265985DF00070746 /* UIColor + Extension.swift */; };
+		249AFA5226598E0300027D08 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249AFA5126598E0300027D08 /* Home.storyboard */; };
+		249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249AFA5326598F6800027D08 /* HomeViewController.swift */; };
 		3658E1BF265975A9002B9CCF /* detailPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1BE265975A9002B9CCF /* detailPage.storyboard */; };
 		3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3658E1C0265975BA002B9CCF /* detailPageViewController.swift */; };
 		3658E20B26597823002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */; };
@@ -110,6 +112,8 @@
 		2449231826596E5A00070746 /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
 		2449231E265981BF00070746 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		24492320265985DF00070746 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		249AFA5126598E0300027D08 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		249AFA5326598F6800027D08 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3658E1BE265975A9002B9CCF /* detailPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = detailPage.storyboard; sourceTree = "<group>"; };
 		3658E1C0265975BA002B9CCF /* detailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailPageViewController.swift; sourceTree = "<group>"; };
 		3658E1C326597820002B9CCF /* NotoSans-ExtraCondensedExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedExtraBold.ttf"; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 			children = (
 				244922FC26596DB400070746 /* Main.storyboard */,
 				3658E1BE265975A9002B9CCF /* detailPage.storyboard */,
+				249AFA5126598E0300027D08 /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			children = (
 				244922FA26596DB400070746 /* ViewController.swift */,
 				3658E1C0265975BA002B9CCF /* detailPageViewController.swift */,
+				249AFA5326598F6800027D08 /* HomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -451,6 +457,7 @@
 				3658E21C26597823002B9CCF /* NotoSans-ExtraCondensedBlack.ttf in Resources */,
 				2449231F265981BF00070746 /* Colors.xcassets in Resources */,
 				3658E24426597823002B9CCF /* NotoSans-Black.ttf in Resources */,
+				249AFA5226598E0300027D08 /* Home.storyboard in Resources */,
 				3658E21A26597823002B9CCF /* NotoSans-CondensedSemiBold.ttf in Resources */,
 				3658E24026597823002B9CCF /* NotoSans-SemiCondensedThin.ttf in Resources */,
 				3658E22026597823002B9CCF /* NotoSans-ExtraCondensedExtraBoldItalic.ttf in Resources */,
@@ -528,6 +535,7 @@
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
 				2449231726596E5500070746 /* APIServices.swift in Sources */,
+				249AFA5426598F6800027D08 /* HomeViewController.swift in Sources */,
 				2449231926596E5A00070746 /* APIModels.swift in Sources */,
 				244922F926596DB400070746 /* SceneDelegate.swift in Sources */,
 				2449231326596E4900070746 /* Extensions.swift in Sources */,
@@ -679,7 +687,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GGumPiece/Info.plist;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,7 +705,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = GGumPiece/Info.plist;
+				INFOPLIST_FILE = GGumPiece/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
