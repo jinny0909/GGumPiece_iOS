@@ -92,6 +92,7 @@
 		3658E25126597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */; };
 		3658E25226597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */; };
 		3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3687005B265984CB003E3A35 /* tableViewDummy.swift */; };
+		368AEF102659A89A00516D0C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368AEF0F2659A89A00516D0C /* DetailViewController.swift */; };
 		368F60DA2659973900CA6D24 /* DetailPageSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */; };
 		36C190B42659947C000B5392 /* DetailPageSubject.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B32659947C000B5392 /* DetailPageSubject.storyboard */; };
 		36C190BC2659959E000B5392 /* NotoSerifKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36C190B52659959D000B5392 /* NotoSerifKR-Regular.otf */; };
@@ -192,6 +193,7 @@
 		3658E20926597823002B9CCF /* NotoSans-CondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-CondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3658E20A26597823002B9CCF /* NotoSans-ExtraCondensedSemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraCondensedSemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		3687005B265984CB003E3A35 /* tableViewDummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewDummy.swift; sourceTree = "<group>"; };
+		368AEF0F2659A89A00516D0C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageSubjectViewController.swift; sourceTree = "<group>"; };
 		36C190B32659947C000B5392 /* DetailPageSubject.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailPageSubject.storyboard; sourceTree = "<group>"; };
 		36C190B52659959D000B5392 /* NotoSerifKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifKR-Regular.otf"; sourceTree = "<group>"; };
@@ -316,6 +318,7 @@
 				3658E1C0265975BA002B9CCF /* detailPageViewController.swift */,
 				3687005B265984CB003E3A35 /* tableViewDummy.swift */,
 				368F60D92659973900CA6D24 /* DetailPageSubjectViewController.swift */,
+				368AEF0F2659A89A00516D0C /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -560,6 +563,7 @@
 				36DDC0F526597ADA00C58A1D /* DetailTableViewCell.swift in Sources */,
 				3658E1C1265975BA002B9CCF /* detailPageViewController.swift in Sources */,
 				3687005C265984CB003E3A35 /* tableViewDummy.swift in Sources */,
+				368AEF102659A89A00516D0C /* DetailViewController.swift in Sources */,
 				244922FB26596DB400070746 /* ViewController.swift in Sources */,
 				244922F726596DB400070746 /* AppDelegate.swift in Sources */,
 				2449231726596E5500070746 /* APIServices.swift in Sources */,
