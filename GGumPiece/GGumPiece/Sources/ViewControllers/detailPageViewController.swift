@@ -54,6 +54,12 @@ extension detailPageViewController : UITableViewDelegate{
         subjectVC.date = dummyList[indexPath.row].date
         subjectVC.name = dummyList[indexPath.row].name
         subjectVC.subject = dummyList[indexPath.row].detail
+        
+        if dummyList[indexPath.row].name == "감자랑 태풍ㅠ"{
+            subjectVC.buttonLabel = "#태풍"
+            subjectVC.boool = false
+        }
+
     }
     
     

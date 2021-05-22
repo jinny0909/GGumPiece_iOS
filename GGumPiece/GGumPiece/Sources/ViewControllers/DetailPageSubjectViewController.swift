@@ -11,13 +11,19 @@ class DetailPageSubjectViewController: UIViewController {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var subjectLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hashtagButton: UIButton!
+    var buttonLabel :String = ""
     var date :String = ""
     var subject : String = ""
     var name : String = ""
+    var boool : Bool = true
     
     override func viewDidLoad() {
         setRadius()
         setLabel()
+        hashtagButton.setTitle(buttonLabel, for: .normal)
+        hashtagButton.layer.cornerRadius = 9
+        hashtagButton.isHidden = boool
         super.viewDidLoad()
     }
     func setLabel(){
@@ -32,5 +38,7 @@ class DetailPageSubjectViewController: UIViewController {
     }
     @IBAction func backButtonClicke(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
+    }
+    @IBAction func hashtagButtonClicked(_ sender: Any) {
     }
 }

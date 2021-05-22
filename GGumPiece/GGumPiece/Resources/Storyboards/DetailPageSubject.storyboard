@@ -11,6 +11,9 @@
         <array key="NotoSans-Bold.ttf">
             <string>NotoSans-Bold</string>
         </array>
+        <array key="NotoSans-Medium.ttf">
+            <string>NotoSans-Medium</string>
+        </array>
         <array key="NotoSans-Regular.ttf">
             <string>NotoSans-Regular</string>
         </array>
@@ -65,13 +68,30 @@
                                         <color key="textColor" red="0.61960786580000005" green="0.62352943419999995" blue="0.62352943419999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgg-Id-ruY">
+                                        <rect key="frame" x="22" y="335" width="45" height="20"/>
+                                        <color key="backgroundColor" red="0.87450981139999995" green="0.77647060160000003" blue="0.86274516580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="6RZ-np-ycD"/>
+                                            <constraint firstAttribute="width" constant="45" id="lQ2-eW-BHW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSans-Medium" family="Noto Sans" pointSize="10"/>
+                                        <state key="normal">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hashtagButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5bx-hx-GUy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="zgg-Id-ruY" firstAttribute="leading" secondItem="yJf-RZ-Qb8" secondAttribute="leading" constant="22" id="1rN-a1-3L7"/>
                                     <constraint firstAttribute="width" constant="322" id="3Ya-sf-gUk"/>
                                     <constraint firstItem="T2g-u9-25n" firstAttribute="leading" secondItem="yJf-RZ-Qb8" secondAttribute="leading" constant="71" id="7tF-6g-hwm"/>
                                     <constraint firstItem="T2g-u9-25n" firstAttribute="top" secondItem="yJf-RZ-Qb8" secondAttribute="top" constant="37" id="LUh-Jl-Ajv"/>
                                     <constraint firstItem="Oa2-gx-Vqk" firstAttribute="leading" secondItem="yJf-RZ-Qb8" secondAttribute="leading" constant="22" id="RZC-a4-ey3"/>
+                                    <constraint firstAttribute="bottom" secondItem="zgg-Id-ruY" secondAttribute="bottom" constant="60" id="Wcf-ZP-y7h"/>
                                     <constraint firstItem="Oa2-gx-Vqk" firstAttribute="top" secondItem="T2g-u9-25n" secondAttribute="bottom" constant="33" id="XWK-W5-d5L"/>
                                     <constraint firstAttribute="height" constant="415" id="xql-nW-vDs"/>
                                     <constraint firstAttribute="trailing" secondItem="T2g-u9-25n" secondAttribute="trailing" constant="71" id="yit-NK-GHr"/>
@@ -113,6 +133,7 @@
                     </view>
                     <connections>
                         <outlet property="dateLabel" destination="eDQ-LA-eIt" id="nIO-Lt-g4W"/>
+                        <outlet property="hashtagButton" destination="zgg-Id-ruY" id="Pes-CZ-YbN"/>
                         <outlet property="nameLabel" destination="T2g-u9-25n" id="VlI-W5-QvK"/>
                         <outlet property="subjectLabel" destination="Oa2-gx-Vqk" id="6GQ-ah-gL9"/>
                         <outlet property="subjectView" destination="yJf-RZ-Qb8" id="nIe-iV-xSg"/>
