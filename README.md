@@ -1,28 +1,54 @@
-## 꿈조각🌙
+## DreamPiece🌙
 
 ---
+
 ![image](https://user-images.githubusercontent.com/49138331/119242677-dfdb9700-bb9a-11eb-893b-63855c956110.png)
-> ### 꾼 꿈에 대한 간략한 기록을 귀엽게 남겨보아요!
- > ### 꿈조각🌙
-> ### 꿈을 새긴 조각을 모아 보름달이 채워지면 더욱 환한 기억으로 남을거예요.
+> ### Leave a cute record of yesterday's dream! 
+> ### If you reach full moon by collecting pieces of your dream, it will last longer in your memory. 
+
+
+## Views 
+
+### Splash, Login View 
+<img width="1048" alt="Screen Shot 2021-08-29 at 8 54 34 PM" src="https://user-images.githubusercontent.com/70327883/131271552-a34a2764-36d8-4aa8-825c-be59606704f7.png">
+
+
+### Main View
+<img width="1040" alt="Screen Shot 2021-08-29 at 8 54 52 PM" src="https://user-images.githubusercontent.com/70327883/131271567-cc132318-3295-481f-9740-dd986718b4d6.png">
+
 
 
 ## Contributors
 
 ---
 
-|   이정엽    |     박익범     | 임경진 |
+iOS Team
+|   Jeongyeob Lee    |     Ikbum Park     | Kyoungjin Lim |
 | :---------: | :------------: | :----: |
-| 메인뷰 구현 | 상세페이지구현 | 로그인 |
-| 메인 탭바, 메인뷰 구현 | 꿈기록장 설계     | 스플래쉬, 로그인뷰 |
+| Main View Implementation | Detail View | Login |
+| Main Tabbar, Main View | Dream Record Page   | Splash, Login View |
 
 
-## TimeLine
+Team
+|   Name   |     Role     | 
+| :---------: | :------------: | 
+| Hyeona Kim | Product Manager | 
+| Minkyeong Kim | Product Manager   | 
+| Yoojeong Roh | Designer  | 
+| Eugene Han | Designer  | 
+| Hyunji Kim | Backend Developer  | 
+| Seol Park | Backend Developer  | 
+| Jeongyeob Lee | iOS Developer  | 
+| Ikbum Park | iOS Developer  |
+| Kyoungjin Lim | iOS Developer  | 
+
+
+
+
+## Sopkathon TimeLine
 <img width="456" alt="KakaoTalk_Photo_2021-05-23-08-17-52" src="https://user-images.githubusercontent.com/70327883/119243185-77db7f80-bb9f-11eb-923d-6eb71ae547be.png">
 
 
- >02:00 AM: 1차과제 제출후 협업세팅
- >>03:00 AM: [3시 체킹](https://www.notion.so/3-173bb6394cf344248e682b475c0de208)
 
 
 ---
